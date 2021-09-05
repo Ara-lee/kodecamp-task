@@ -1,0 +1,376 @@
+*,
+* ::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "open sans", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.row {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+}
+.row-100 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.row-cloumn-100 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.row-column {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-font {
+  font-family: "playfair display", serif;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  color: #fff;
+  padding: 60px;
+  background-image: url("./images/banner.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner-heading {
+  font-size: 6rem;
+  font-style: italic;
+  padding: 0 2rem;
+}
+
+.banner-text {
+  font-size: 1rem;
+  font-weight: normal;
+  background-color: #fff;
+  padding: 30px;
+  color: black;
+}
+
+.annon-section {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0;
+  background-color: #e9b1b3;
+  color: #fff;
+}
+
+.annon {
+  font-size: 1.6rem;
+  font-style: italic;
+  margin-bottom: 18px;
+}
+
+.annon span {
+  font-size: 6rem;
+  line-height: 0;
+}
+.annon-section p {
+  font-size: 0.9rem;
+  width: 50%;
+}
+
+.gallery .img-container {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.gallery .gallery-img-1 {
+  background-image: url(./images/gallery-1.jpeg);
+}
+.gallery .gallery-img-2 {
+  background-image: url(./images/gallery-2.jpeg);
+}
+.gallery .gallery-img-3 {
+  background-image: url(./images/gallery-3.jpeg);
+}
+
+.gallery .gallery-img-4 {
+  background-image: url(./images/gallery-4.jpeg);
+}
+
+.gallery .gallery-img-5 {
+  background-image: url(./images/gallery-5.jpeg);
+}
+
+.gallery .gallery-img-6 {
+  background-image: url(./images/gallery-6.jpeg);
+}
+
+.coming-soon {
+  background-color: #d9b1b3;
+  padding: 50px 0;
+  color: white;
+}
+
+.coming-soon .row-cloumn-100 {
+  justify-content: center;
+}
+
+.coming-soon .coming-soon-heading,
+.coming-soon .coming-soon-text,
+.coming-soon .coming-soon-form {
+  text-align: center;
+}
+
+.coming-soon .coming-soon-heading {
+  font-size: 4rem;
+  font-style: italic;
+}
+
+.coming-soon .coming-soon-text {
+  font-size: 1.3rem;
+}
+
+.coming-soon .coming-soon-form {
+  margin-top: 40px;
+}
+
+.coming-soon-form .row-100 {
+  justify-content: center;
+}
+.coming-soon-form .input-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 5px;
+}
+
+.input-container .text-input,
+.input-container .form-btn {
+  padding: 12px 10px;
+  border: unset;
+  border-radius: 20px;
+}
+
+.input-container .form-btn {
+  background-color: black;
+  color: white;
+}
+
+.article-section {
+  background-color: white;
+  padding: 35px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.article-section .article-img-container {
+  flex-grow: 1;
+  overflow: hidden;
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.article-section .article-img {
+  background-image: url(./images/article-img.jpeg);
+  width: 200rem;
+}
+
+.article-section .article-text {
+  padding: 6rem 3rem;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.article-section .article-signature {
+  font-size: 4rem;
+  font-family: "Allison", cursive;
+  color: #d9b1b3;
+  margin-top: 2rem;
+}
+
+.spring-section {
+  background-color: #d9b1b3;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spring-section .slide-container {
+  flex-grow: 1;
+  overflow: hidden;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0.35rem;
+}
+
+.spring-section .spring-text {
+  font-size: 4rem;
+  font-style: italic;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.spring-section .slide-1 {
+  background-image: url(./images/slide-1.jpg);
+}
+
+.spring-section .slide-2 {
+  background-image: url(./images/slide-2.jpg);
+}
+
+.spring-section .slide-3 {
+  background-image: url(./images/slide-3.jpg);
+}
+
+.spring-section .slide-4 {
+  background-image: url(./images/slide-4.jpg);
+}
+
+.spring-section .spring-icon {
+  margin-top: 1rem;
+}
+
+.sample-section {
+  background-color: white;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+.sample-section .sample-box {
+  align-items: center;
+}
+.sample-section .sample-product-img {
+  flex-grow: 1;
+  overflow: hidden;
+  height: 24rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0.35rem;
+}
+
+.sample-section .product-1 {
+  background-image: url(./images/product-1.jpg);
+}
+.sample-section .product-2 {
+  background-image: url(./images/product-2.jpg);
+}
+
+.sample-section .sample-text-container {
+  height: 30rem;
+  width: 30rem;
+  padding-left: 3rem;
+}
+
+.sample-section .sample-h3 {
+  font-weight: 600;
+  margin: 5rem 0 2rem 0;
+}
+.sample-section .sample-price {
+  font-weight: 800;
+  margin: 1rem 0;
+}
+
+.sample-section p {
+  font-size: 1rem;
+}
+.sample-section .sample-btn {
+  margin-top: 1.7rem;
+  padding: 12px 48px;
+  border: unset;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+
+.subscribe-section {
+  background-color: white;
+}
+.subscribe-section .subscribe-img {
+  flex-grow: 1;
+  overflow: hidden;
+  height: 35rem;
+  width: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0.35rem;
+}
+
+.subscribe-section .subscribe {
+  background-image: url(./images/subscribe.jpeg);
+}
+
+.subscribe-section .line {
+  border: 5px solid #d9b1b3;
+  width: 30rem;
+}
+.subscribe-section .inner-text {
+  font-size: 4rem;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.subscribe-section .subscribe-text {
+  text-align: center;
+  margin-left: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-section .subscribe-text p {
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+.subscribe-section .row-100-add input {
+  padding: 12px 1rem;
+  border: 1px solid rgb(197, 197, 197);
+  color: rgb(197, 197, 197);
+}
+
+.row-100-add {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.subscribe-button {
+  margin-top: 1.7rem;
+  padding: 12px 20px;
+  border: unset;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+}
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.social-media .tweet {
+  padding: 0 20px;
+}
